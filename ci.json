@@ -1,0 +1,12 @@
+{
+  "environment": "production",
+  "database": {
+    "host": "db.example.com",
+    "username": "admin",
+    "password": "securepassword"
+  },
+  "deploy": {
+    "target": "production",
+    "script": "deploy.sh"
+  }
+}
